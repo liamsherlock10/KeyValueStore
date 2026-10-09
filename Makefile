@@ -1,6 +1,6 @@
 CC = clang
 TARGET = kvstore
-CFLAGS = -Wall -Wextra -g
+CFLAGS = -Wall -Wextra -g -fsanitize=address
 
 .PHONY: all clean
 
